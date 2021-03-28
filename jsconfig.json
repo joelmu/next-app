@@ -1,0 +1,14 @@
+// jsconfig.json
+
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@components/*": ["./components/*"],
+        "@pages/*": ["./pages/*"],
+        "@styles/*": ["./styles/*"]
+      }
+    },
+    //Add any build/compiled folders here to stop vscode searching those
+    "exclude": ["node_modules", ".next"]
+  }
